@@ -3,14 +3,6 @@ padding: 0%;
 box-sizing: border-box;
 }
 
-@media (max-width: 400px){
-    .productos {
-        grid-template-columns: 1fr;
-    }
-    .navegacion{
-        color: aqua;
-    }
-}
 
 @font-face {
     font-family: skypiston;
@@ -73,6 +65,7 @@ color: #838383;}
         margin-top: 40px;
         font-family: skypiston;
         font-size: 30px;
+        justify-content: center
         ;
     }
 
@@ -151,5 +144,30 @@ color: #838383;}
         font-weight:bolder;
         line-height: 450px;
         text-align: center;}
+
+#carouselExample{
+    margin: 100px;
+
+}
+
+@media screen and (max-width: 800px){
+
+
+.productos { 
+
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+} 
+    
+@media screen and (max-width: 600px) {
+.productos {
+
+    grid-template-columns: 1fr;
+}
+
+
+}    
 
 
