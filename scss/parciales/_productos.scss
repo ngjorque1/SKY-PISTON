@@ -1,0 +1,75 @@
+.productos{ 
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 40px;
+    margin: 200px;
+    margin-top: 40px;
+    font-family: skypiston;
+    font-size: 30px;
+    justify-content:center;
+
+    .lavado
+{background-image: url("../images/lavado.jpg");
+width: 250px;
+height: 250px;
+background-size: cover;
+background-position:center center;
+color: #ffffff;
+font-weight:bolder;
+text-align:center;}
+
+.secado
+{background-image: url("../images/secado.jpg");
+width: 250px;
+height: 250px;
+background-size: cover;
+background-position:center center;
+color: #2b04da;
+font-weight:bolder;
+text-align:center;}
+
+.aspirado
+{background-image: url("../images/aspirado.jpg");
+width: 250px;
+height: 250px;
+background-size: cover;
+background-position:center center;
+color: #ff0000;
+font-weight:bolder;
+text-align:center;}
+
+.encerado
+{background-image: url("../images/encerado.jpg");
+width: 250px;
+height: 250px;
+background-size: cover;
+background-position:center center;
+color: #000000;
+font-weight:bolder;
+text-align:center;
+line-height: 450px;}
+
+.detallado
+{background-image: url("../images/detalle.jpg");
+width: 250px;
+height: 250px;
+background-size: cover;
+background-position:center center;
+color: #000000;
+font-weight:bolder;
+line-height: 450px;
+text-align: center;}
+
+.pintado
+{background-image: url("../images/pulido.jpg");
+width: 250px;
+height: 250px;
+background-size: cover;
+background-position:center center;
+color: #000000;
+font-weight:bolder;
+line-height: 450px;
+text-align: center;}
+
+
+}

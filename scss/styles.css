@@ -1,0 +1,197 @@
+@font-face {
+  font-family: skypiston;
+  src: url(../FUENTE.ttf);
+}
+.lista {
+  list-style: none;
+  font-family: skypiston;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.navegacion {
+  background-color: #DDE6ED;
+  padding: 1rem;
+  text-align: center;
+  font-family: skypiston;
+  font-size: xx-large;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.parrafo {
+  color: #27374D;
+  background-color: #DDE6ED;
+  font-size: larger;
+  font-weight: 800;
+  font-family: skypiston;
+  padding: 1rem;
+}
+
+.parrafo1 {
+  color: #27374D;
+  background-color: #DDE6ED;
+  font-size: larger;
+  font-weight: 800;
+  font-family: skypiston;
+  padding: 1rem;
+}
+
+.parrafo2 {
+  color: #27374D;
+  background-color: #DDE6ED;
+  font-size: larger;
+  font-weight: 800;
+  font-family: skypiston;
+  padding: 1rem;
+}
+
+.nosotros {
+  flex: 1;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.parrafoimagen1 {
+  height: 200px;
+  width: 300px;
+  background-image: url(/images/1.jpg);
+}
+
+.parrafoimagen1:hover {
+  transition: 1s;
+  height: 400px;
+  width: 600px;
+}
+
+.parrafoimagen2 {
+  height: 200px;
+  width: 300px;
+  background-image: url(/images/detalle.jpg);
+}
+
+.parrafoimagen2:hover {
+  transition: 1s;
+  height: 400px;
+  width: 600px;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin: 200px;
+  margin-top: 40px;
+  font-family: skypiston;
+  font-size: 30px;
+  justify-content: center;
+}
+.productos .lavado {
+  background-image: url("../images/lavado.jpg");
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  font-weight: bolder;
+  text-align: center;
+}
+.productos .secado {
+  background-image: url("../images/secado.jpg");
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  color: #2b04da;
+  font-weight: bolder;
+  text-align: center;
+}
+.productos .aspirado {
+  background-image: url("../images/aspirado.jpg");
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  color: #ff0000;
+  font-weight: bolder;
+  text-align: center;
+}
+.productos .encerado {
+  background-image: url("../images/encerado.jpg");
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  color: #000000;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 450px;
+}
+.productos .detallado {
+  background-image: url("../images/detalle.jpg");
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  color: #000000;
+  font-weight: bolder;
+  line-height: 450px;
+  text-align: center;
+}
+.productos .pintado {
+  background-image: url("../images/pulido.jpg");
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  color: #000000;
+  font-weight: bolder;
+  line-height: 450px;
+  text-align: center;
+}
+
+#titulo {
+  color: #27374D;
+  background-color: #DDE6ED;
+  font-size: xx-large;
+  font-weight: 700;
+  text-align: center;
+  font-family: skypiston;
+}
+
+.titulo {
+  background-color: #DDE6ED;
+}
+
+.derechos {
+  font-size: smaller;
+  text-align: center;
+  color: #838383;
+}
+
+#carouselExample {
+  margin: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .productos {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .productos {
+    grid-template-columns: 1fr;
+  }
+}
+.principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+}
+
+#logoprincipal {
+  height: 500px;
+  width: 500px;
+}/*# sourceMappingURL=styles.css.map */

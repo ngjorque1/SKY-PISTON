@@ -1,0 +1,29 @@
+@import "../scss/parciales/variables";
+@import "../scss/parciales/lista";
+@import "../scss/parciales/navegacion";
+@import "../scss/parciales/parrafo";
+@import "../scss/parciales/productos";
+@import "../scss/parciales/titulo";
+@import "../scss/parciales/derechos";
+@import "../scss/parciales/carousel";
+
+
+@media screen and (max-width: 800px){
+    .productos {grid-template-columns: 1fr 1fr;
+        justify-content: center;}} 
+        
+    @media screen and (max-width: 600px) {
+    .productos {grid-template-columns: 1fr;}}
+
+
+    .principal
+    {display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 80px;
+
+    }
+    #logoprincipal{
+        height: 500px;
+        width: 500px;
+    
+    }

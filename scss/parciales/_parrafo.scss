@@ -1,0 +1,47 @@
+.parrafo
+{
+color: $colorPrincipal; background-color: $colorFondo;
+font-size: larger;
+font-weight: 800;
+font-family: skypiston;
+padding: 1rem;}
+
+.parrafo1
+{color: $colorPrincipal; background-color: $colorFondo;
+font-size: larger;
+font-weight: 800;
+font-family: skypiston;
+padding: 1rem;}
+
+.parrafo2
+{color: $colorPrincipal; background-color: $colorFondo;
+font-size: larger;
+font-weight: 800;
+font-family: skypiston;
+padding: 1rem;}
+
+.nosotros {flex: 1;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;}
+
+.parrafoimagen1
+{height: 200px;
+width: 300px;
+background-image: url(/images/1.jpg);
+}
+
+.parrafoimagen1:hover{
+    transition: 1s;
+    height: 400px;
+    width: 600px;}
+
+.parrafoimagen2
+{height: 200px;
+width: 300px;
+background-image: url(/images/detalle.jpg);}
+
+.parrafoimagen2:hover{
+    transition:1s;
+    height: 400px;
+    width: 600px;}
