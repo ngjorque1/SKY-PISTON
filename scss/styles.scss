@@ -3,7 +3,6 @@
 @import "../scss/parciales/navegacion";
 @import "../scss/parciales/parrafo";
 @import "../scss/parciales/productos";
-@import "../scss/parciales/titulo";
 @import "../scss/parciales/derechos";
 @import "../scss/parciales/carousel";
 
@@ -19,11 +18,10 @@
     .principal
     {display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 80px;
+        padding: 80px;}
 
-    }
-    #logoprincipal{
-        height: 500px;
-        width: 500px;
-    
-    }
+        #logoprincipal{
+        height: 650px;
+        width: 650px;}
+
+

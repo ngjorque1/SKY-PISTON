@@ -1,8 +1,13 @@
 .navegacion {
     background-color: $colorFondo;
-    padding: 1rem;
+    background-image: linear-gradient(1deg, #fff,$colorFondo, #fff);
+    padding: 20px;
     text-align: center;
     font-family: skypiston;
     font-size: xx-large; 
     flex-wrap: wrap;
     justify-content:center;}
+
+    .nombre{
+        background-image: linear-gradient(1deg, #fff,$colorFondo, #fff);
+    }
