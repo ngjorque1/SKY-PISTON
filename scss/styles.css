@@ -57,7 +57,7 @@
 .parrafoimagen1 {
   height: 200px;
   width: 300px;
-  background-image: url(/images/1.jpg);
+  background-image: url(../images/1.jpg);
 }
 
 .parrafoimagen1:hover {
@@ -69,7 +69,7 @@
 .parrafoimagen2 {
   height: 200px;
   width: 300px;
-  background-image: url(/images/detalle.jpg);
+  background-image: url(../images/detalle.jpg);
 }
 
 .parrafoimagen2:hover {
