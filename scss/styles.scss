@@ -1,10 +1,11 @@
 @import "../scss/parciales/variables";
 @import "../scss/parciales/lista";
-@import "../scss/parciales/navegacion";
 @import "../scss/parciales/parrafo";
 @import "../scss/parciales/productos";
 @import "../scss/parciales/derechos";
-@import "../scss/parciales/carousel";
+
+
+
 
 
 @media screen and (max-width: 800px){
@@ -23,39 +24,84 @@
         #logoprincipal{
         height: 650px;
         width: 650px;
-        animation-name: animaciondelogo;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
 
     }
-
-@keyframes animaciondelogo{
-
-    from {
-        margin-left: 100%;
-        width: 300%;
-      }
-    
-      to {
-        margin-left: 0%;
-        width: 100%;
-      }
-}
-
 .home{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    margin-left: 200px;
-    margin-bottom: 30px;}
+    padding: 80px}
 
 .parrafo2{
     @extend .parrafo;
-    margin: 200px;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
+.contactogeneral{
+    font-family: skypiston;
+    font-size: x-large;
+margin: 60px;
+padding: 10px;
+text-align: center;
+display: grid;
+grid-template-columns: 1fr 1fr;}
+
+.contactate{
+    font-family: skypiston;
+    font-weight: 500;
+}
+
+#carouselExample{
+    width:auto;
+    height: auto;
+    margin: auto;
+}
+
+#galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    gap: 20px;
+}
 
 
+#carouselExampleSlidesOnly{
+
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#carouselExampleSlideOnly1{
+
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.galeriaindex{
+    text-align: center;
+    
+}
+
+.titulo{
+    text-align: center;
+    font-family: skypiston;
+    font-size: 300%;}
+
+ .navbar{
+        background-color: black;
+        font-family: skypiston;
+        text-decoration: none!important;
+        color: aliceblue;
+        font-size:xx-large;
+        text-align:center;
+        word-spacing: 10px;
+    }
+
+.navbar-brand{
+    text-decoration: none;
+}

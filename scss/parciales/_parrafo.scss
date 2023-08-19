@@ -4,7 +4,9 @@ color: $colorPrincipal; background-color: $colorFondo;
 background-image: linear-gradient(1deg, #fff,$colorFondo, #fff);
 font-size: larger;
 font-weight: 800;
-font-family: skypiston;}
+font-family: skypiston;
+margin: 10px;
+padding: 10px;}
 
 .parrafo1
 {color: $colorPrincipal; background-color: $colorFondo;
@@ -18,7 +20,8 @@ padding: 1rem;}
 font-size: larger;
 font-weight: 800;
 font-family: skypiston;
-padding: 1rem;}
+padding: 10px;
+margin: 10px;}
 
 .nosotros {flex: 1;
     display: grid;
@@ -46,6 +49,3 @@ background-image: url(/images/detalle.jpg);}
     height: 400px;
     width: 600px;}
 
-    .contacto{
-    background-image: linear-gradient(1deg, #fff,$colorFondo, #fff);
-    }
