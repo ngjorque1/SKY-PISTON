@@ -5,7 +5,7 @@
     margin: 200px;
     margin-top: 40px;
     font-family: skypiston;
-    font-size: 30px;
+    font-size: x-large;
     justify-content:center;
 
     .lavado
@@ -73,26 +73,31 @@ text-align: center;}
 }
 
 .lavado:hover{
-    opacity: 30%;
+    opacity: 90%;
     font-size: xxx-large;}
 
 .secado:hover{
-    opacity: 30%;
+    opacity: 90%;
     font-size: xxx-large;
+    color: #ffffff;
 }
 
 .aspirado:hover{
-    opacity: 30%;
-    font-size: xxx-large;}
+    opacity: 90%;
+    font-size: xxx-large;
+color: #ffffff;}
 
 .encerado:hover{
-    opacity: 30%;
-    font-size: xxx-large;}
+    opacity: 90%;
+    font-size: xxx-large;
+color: #ffffff;}
 
 .detallado:hover{
-        opacity: 30%;
-        font-size: xxx-large;}
+        opacity: 90%;
+        font-size: xxx-large;
+    color: #ffffff;}
 
         .pintado:hover{
-            opacity: 30%;
-            font-size: xxx-large;}
+            opacity: 90%;
+            font-size: xxx-large;
+        color: #ffffff;}

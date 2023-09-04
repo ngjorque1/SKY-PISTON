@@ -3,19 +3,12 @@
 @import "../scss/parciales/parrafo";
 @import "../scss/parciales/productos";
 @import "../scss/parciales/derechos";
+  
 
 
 
 
-
-@media screen and (max-width: 800px){
-    .productos {grid-template-columns: 1fr 1fr;
-        justify-content: center;}} 
-        
-    @media screen and (max-width: 600px) {
-    .productos {grid-template-columns: 1fr;}}
-
-
+    
     .principal
     {display: grid;
         grid-template-columns: 1fr 1fr;
@@ -23,9 +16,9 @@
 
         #logoprincipal{
         height: 650px;
-        width: 650px;
+        width: 650px;}
 
-    }
+
 .home{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -95,13 +88,31 @@ grid-template-columns: 1fr 1fr;}
  .navbar{
         background-color: black;
         font-family: skypiston;
-        text-decoration: none!important;
         color: aliceblue;
         font-size:xx-large;
         text-align:center;
         word-spacing: 10px;
+        display: flex;
+
     }
 
-.navbar-brand{
+.ancla{
     text-decoration: none;
+    color: aliceblue;
+    font-weight: 900;}
+
+@media screen and (max-width: 900px){
+    .home { grid-template-columns: 1fr 1fr;}
+    .navbar{flex-direction: column;}
+
+}
+
+@media screen and (max-width: 800px){
+    .productos {grid-template-columns: 1fr 1fr;
+        justify-content: center;}
+    .home { grid-template-columns: 1fr;
+    justify-content: center;}}
+
+@media screen and (max-width: 600px) {
+    .productos {grid-template-columns: 1fr;}
 }
