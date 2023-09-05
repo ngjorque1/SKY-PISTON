@@ -268,6 +268,7 @@
   text-align: center;
   word-spacing: 10px;
   display: flex;
+  justify-content: center;
 }
 
 .ancla {
@@ -277,14 +278,6 @@
 }
 
 @media screen and (max-width: 900px) {
-  .home {
-    grid-template-columns: 1fr 1fr;
-  }
-  .navbar {
-    flex-direction: column;
-  }
-}
-@media screen and (max-width: 800px) {
   .productos {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -293,8 +286,18 @@
     grid-template-columns: 1fr;
     justify-content: center;
   }
+  #galeria {
+    grid-template-columns: 1fr;
+  }
+  .nosotros {
+    grid-template-columns: 1fr;
+  }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
+  .contactogeneral {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
   .productos {
     grid-template-columns: 1fr;
   }
